@@ -2,7 +2,7 @@ import { ReactLenis } from "lenis/dist/lenis-react";
 import Projects from "./Projects";
 import CenterItem from "./CenterItem";
 
-export const SmoothScrollMain = () => {
+const SmoothScrollMain = () => {
   return (
     <div className="bg-zinc-950">
       <ReactLenis
@@ -21,5 +21,6 @@ export const SmoothScrollMain = () => {
   );
 };
 
+export default SmoothScrollMain;
 
 

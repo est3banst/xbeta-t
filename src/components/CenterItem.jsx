@@ -33,8 +33,8 @@ const CenterImage = () => {
   
     const backgroundSize = useTransform(
       scrollY,
-      [0, SECTION_HEIGHT + 500],
-      ["170%", "100%"]
+      [0, SECTION_HEIGHT + 600],
+      ["contain", "contain"]
     );
     const opacity = useTransform(
       scrollY,

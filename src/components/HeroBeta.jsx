@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiArrowRight } from "react-icons/fi";
-import { SmoothScrollMain } from './Main.jsx';
+import SmoothScrollMain from './Main';
 import Nav from './Nav.jsx';
 
 const HeroBeta = () => {

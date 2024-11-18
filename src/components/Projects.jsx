@@ -16,11 +16,26 @@ const Projects = () => {
         >
           Work
         </motion.h1>
-        <Items title="Tatuajes" location="Montevideo" />
-        <Items title="Remeras" location="Montevideo" />
-        <Items title="Pinturas" location="Montevideo" />
+        <Items title="Tatuajes" src={itemImages[0].src} location="Montevideo" />
+        <Items title="Remeras" src={itemImages[1].src} location="Montevideo" />
+        <Items title="Pinturas" src={itemImages[2].src} location="Montevideo" />
       </section>
     );
   };
 
 export default Projects
+
+const itemImages = [
+  { 
+    src: 'xbeta-tat.jpg',
+    alt: 'Tattoos',
+  },
+  {
+    src : 'beta-rem.item.jpg',
+    alt: 'Remeras'
+  },
+  { 
+    src: 'h-bet.jpg',
+    alt: 'Pinturas',
+  },
+]
