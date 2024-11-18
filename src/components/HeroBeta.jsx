@@ -42,10 +42,6 @@ const HeroBeta = () => {
 
 const heroCards = [
   {
-  url: 'h-bet.jpg',
-  alt: 'Drawing Hero',    
-  }, 
-  {
     url: 'heroimg.jpg',
     alt: 'Drawing Fantasy',
   }, 

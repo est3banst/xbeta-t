@@ -27,15 +27,15 @@ export default Projects
 
 const itemImages = [
   { 
-    src: 'xbeta-tat.jpg',
+    src: '/imgs/tattoos/xbeta-tat.jpg',
     alt: 'Tattoos',
   },
   {
-    src : 'beta-rem.item.jpg',
+    src : '/imgs/rems/beta-rem.item.jpg',
     alt: 'Remeras'
   },
   { 
-    src: 'h-bet.jpg',
+    src: '/imgs/paints/h-bet.jpg',
     alt: 'Pinturas',
   },
 ]

@@ -34,7 +34,7 @@ const CenterImage = () => {
     const backgroundSize = useTransform(
       scrollY,
       [0, SECTION_HEIGHT + 600],
-      ["contain", "contain"]
+      ["170%", "contain"]
     );
     const opacity = useTransform(
       scrollY,
@@ -49,7 +49,7 @@ const CenterImage = () => {
           clipPath,
           backgroundSize,
           opacity,
-          backgroundImage: "url(rem-beta.jpg)",
+          backgroundImage: "url(/imgs/rems/rem-beta.jpg)",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
@@ -67,28 +67,28 @@ const ParallaxImages = () => {
   return (
     <div className="mx-auto max-w-5xl px-4 pt-[200px]">
       <ParallaxImg
-        src="rem-beta-3.jpg"
+        src="/imgs/rems/rem-beta-3.jpg"
         alt="And example of a space launch"
         start={-200}
         end={200}
         className="w-1/3"
       />
       <ParallaxImg
-        src="rem-beta-8.jpg"
+        src="/imgs/rems/rem-beta-8.jpg"
         alt="An example of a space launch"
         start={200}
         end={-250}
         className="mx-auto w-2/3"
       />
       <ParallaxImg
-        src="xbeta-tat.jpg"
+        src="/imgs/tattoos/xbeta-tat.jpg"
         alt="Orbiting satellite"
         start={-200}
         end={200}
         className="ml-auto w-1/3"
       />
       <ParallaxImg
-        src="rem-b-6.jpg"
+        src="/imgs/rems/rem-b-6.jpg"
         alt="Orbiting satellite"
         start={0}
         end={-500}
