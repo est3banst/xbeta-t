@@ -11,7 +11,7 @@ const HeroBeta = () => {
     
       <section 
       className='cust'>
-      <h2 className='custom text-3xl text-slate-50 md:text-6xl lg:text-7xl mx-2'>X BETA</h2>
+      <h2 className='custom text-3xl text-slate-50 md:text-6xl lg:text-7xl mx-2'>Artist X</h2>
      
       </section>
   
@@ -42,12 +42,9 @@ const HeroBeta = () => {
 
 const heroCards = [
   {
-    url: 'heroimg.jpg',
+    url: 'guycraig000-1767017.jpg',
     alt: 'Drawing Fantasy',
   }, 
-  {
-    url: 'xbeta-h.jpg',
-    alt: 'Crazy Is Art',
-  },
+  
 ]
 export default HeroBeta

@@ -1,9 +1,12 @@
 import React from 'react'
 import Items from './Items';
 import { motion } from 'framer-motion';
+import Contact from './Contact';
+import Footer from './Footer';
 
 const Projects = () => {
     return (
+      <>
       <section
         id="proyectos-beta"
         className="mx-auto max-w-5xl px-4 py-48 text-white"
@@ -20,6 +23,9 @@ const Projects = () => {
         <Items title="Remeras" src={itemImages[1].src} location="Montevideo" />
         <Items title="Pinturas" src={itemImages[2].src} location="Montevideo" />
       </section>
+      <Contact />
+      <Footer />
+      </>
     );
   };
 
@@ -27,15 +33,15 @@ export default Projects
 
 const itemImages = [
   { 
-    src: '/imgs/tattoos/xbeta-tat.jpg',
+    src: 'tatt-4125659.jpg',
     alt: 'Tattoos',
   },
   {
-    src : '/imgs/rems/beta-rem.item.jpg',
+    src : 'madvortex-9412926.jpg',
     alt: 'Remeras'
   },
   { 
-    src: '/imgs/paints/h-bet.jpg',
+    src: 'guycraig000-1767017.jpg',
     alt: 'Pinturas',
   },
 ]

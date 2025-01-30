@@ -49,7 +49,7 @@ const CenterImage = () => {
           clipPath,
           backgroundSize,
           opacity,
-          backgroundImage: "url(/imgs/rems/rem-beta.jpg)",
+          backgroundImage: "url(va-7541670.jpg)",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
@@ -67,29 +67,29 @@ const ParallaxImages = () => {
   return (
     <div className="mx-auto max-w-5xl px-4 pt-[200px]">
       <ParallaxImg
-        src="/imgs/rems/rem-beta-3.jpg"
-        alt="And example of a space launch"
+        src="shyi-1267432081-29625971.jpg"
+        alt="T-shirt model"
         start={-200}
         end={200}
         className="w-1/3"
       />
       <ParallaxImg
-        src="/imgs/rems/rem-beta-8.jpg"
-        alt="An example of a space launch"
+        src="t-shirt.jpg"
+        alt="Shiny t shirt"
         start={200}
         end={-250}
         className="mx-auto w-2/3"
       />
       <ParallaxImg
-        src="/imgs/tattoos/xbeta-tat.jpg"
-        alt="Orbiting satellite"
+        src="ierra-419902407-16340644.jpg"
+        alt="Tattoo Artistry"
         start={-200}
         end={200}
         className="ml-auto w-1/3"
       />
       <ParallaxImg
-        src="/imgs/rems/rem-b-6.jpg"
-        alt="Orbiting satellite"
+        src="teddy-16131004.jpg"
+        alt="Cool T-shirt"
         start={0}
         end={-500}
         className="ml-24 w-5/12"
