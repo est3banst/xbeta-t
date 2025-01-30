@@ -24,3 +24,16 @@
  border-bottom: .5px solid #020202;
  box-shadow: 1px 2px 2px 2px #020202;
 }
+.custom-btn {
+  border: .5px solid #020202;
+  width: max-content;
+  padding: 8px 16px;
+  margin: auto;
+}
+.custom-btn:hover {
+  color: #f2fff2;
+  background-color: #020202;
+}
+.custom-btn:active {
+  box-shadow: 1px 1.5px 2px 1px #020202;
+}

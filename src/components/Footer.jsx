@@ -6,7 +6,7 @@ const Footer = () => {
         <footer></footer>
         <small
         className='flex gap-2 items-center justify-center flex-col'
-        >No poseo derechos de autor, las fotos presentadas en esta web son propiedad de sus respectivos dueños
+        >Las fotos presentadas en esta web son propiedad de sus respectivos dueños
         <a 
         className=''
         href="https://www.pexels.com">Fuente <b className='underline'>
