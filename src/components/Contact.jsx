@@ -7,7 +7,7 @@ const Contact = () => {
         <>
         <About/>
         <div className='bg-zinc-200 p-4 flex flex-col gap-2'>
-        <h2 className='text-slate-900 m-3 text-xl border-slate-950 border-b-4 w-max flex justify-center'>
+        <h2 className='text-slate-900 m-3 text-xl mx-auto border-slate-950 font-mono border-b-4 w-max flex justify-center'>
             Hagamos tu idea realidad!</h2>
            <hr className=''/>
             <div className='flex items-center justify-center bg-zinc-200'>

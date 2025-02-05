@@ -7,9 +7,19 @@
   src: url(./assets/dark_falcon/DarkFalconRegular.ttf);
 }
 
+* {
+  font-family: monospace, serif;
+}
+
 .custom {
   font-family: customSign, serif;
   
+}
+.custom-bg {
+  background: #bdc3c7; 
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7); 
+
 }
 .cust {
   display: flex;
@@ -20,7 +30,7 @@
   backdrop-filter: blur(5px);
 }
 .form-web input, .form-web textarea {
- padding: 4px 12px;
+ padding: 4px 16px;
  border-bottom: .5px solid #020202;
  box-shadow: 1px 2px 2px 2px #020202;
 }
